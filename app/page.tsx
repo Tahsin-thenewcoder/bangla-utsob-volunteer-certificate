@@ -21,7 +21,7 @@ export default function Home() {
       try {
         const font = new FontFace(
           "CertificateBangla",
-          'url("/fonts/SolaimanLipi.ttf")',
+          'url("/fonts/solaimanLipi.ttf")',
           { weight: "400" }
         );
 
@@ -199,7 +199,7 @@ export default function Home() {
       <style jsx global>{`
         @font-face {
           font-family: CertificateBangla;
-          src: url("/fonts/SolaimanLipi.ttf")
+          src: url("/fonts/solaimanLipi.ttf")
             format("truetype");
           font-weight: 400;
           font-style: normal;
